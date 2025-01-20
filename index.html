@@ -2,12 +2,232 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#f6f6f6">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#f6f6f6">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Ilia Shibaev Web Developer</title>
+    <meta name="description" content="CV Shibaev Ilia - dedicated Frontend Developer">
 </head>
 <body>
-    <header>header</header>
-    <main>main</main>
-    <footer>footer</footer>
+    <header class="header js-header">
+        <div class="container">
+            <div class="inner-block header__inner">
+                <div class="header__logo">
+                    <img class="logo" src="images/lc.svg" alt="CV">
+                    <p class="header__logo-text">Ilia Shibaev <span class="type">frontend developer.</span></p>
+                </div>
+                <nav>
+                    <ul class="header__menu">
+                        <li class="header__menu-item link"><a class="js-scroll-to" href="#about">Summary</a></li>
+                        <li class="header__menu-item link"><a class="js-scroll-to" href="#skills">Skills</a></li>
+                        <li class="header__menu-item link"><a class="js-scroll-to" href="#experience">Experience</a></li>
+                        <li class="header__menu-item link"><a class="js-scroll-to" href="#projects">Projects</a></li>
+                        <li class="header__menu-item link"><a class="js-scroll-to" href="#languages">Languages</a></li>
+                        <li class="header__menu-item link"><a class="js-scroll-to" href="#footer">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="visually-hidden">The best frontend developer</h1>
+        <section class="container about" id="about">
+            <div class="inner-block about__inner">
+                <div class="about__header"><h2>Summary</h2>
+                    <div class="lang-buttons js-lang">
+                        <button class="lang-btn active" type="button" data-lang="en">ENG</button>/<button class="lang-btn" type="button" data-lang="ru">RU</button>
+                    </div>
+                </div>
+
+                <p class="js-text">I am a dedicated Frontend Developer for creating dynamic and responsive web applications. With a
+                    strong foundation in HTML, CSS, and JavaScript, I bring creative solutions to life, ensuring
+                    seamless user experiences. My expertise extends to modern frameworks like React, where I have
+                    successfully developed and deployed several projects.<br><br>
+                    Beyond my professional life, I am an avid traveler, constantly exploring new cultures and gaining
+                    fresh perspectives. This curiosity and openness to new experiences translate into my work, where I
+                    am always eager to learn and adopt the latest technologies and best practices. My enthusiasm for
+                    sports keeps me active and disciplined, qualities that I bring to my professional endeavors as well.<br><br>
+                    Feel free to reach out to me to discuss potential opportunities, collaborations, or just to share
+                    your latest travel stories.</p>
+            </div>
+        </section>
+        <section class="container skills" id="skills">
+            <div class="inner-block skills__inner">
+                <h2>Skills</h2>
+                <ul>
+                    <li>JS, PHP</li>
+                    <li>React, Jquery</li>
+                    <li>Modx Evolution, Wordpress, Bitrix, OpenCart</li>
+                    <li>HTML, CSS, SASS, BEM</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </section>
+        <section class="container experience" id="experience">
+            <div class="inner-block ">
+                <h2>Experience</h2>
+                <div class="experience__inner">
+                    <div class="experience__item experience__item_images">
+                        <a class="experience__item-link" href="https://htmlacademy.ru/intensive/ecmascript" target="_blank" rel="nofollow">
+                            <img src="images/certificates/academy-eng.jpg" alt="Html academy" width="800" height="1124"
+                                loading="lazy">
+                        </a>
+                        <a class="experience__item-link" href="https://dev.1c-bitrix.ru/learning/index.php" target="_blank" rel="nofollow">
+                            <img src="images/certificates/bitrix.jpg" alt="Html academy" width="800" height="1124"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="experience__item">
+                        <p><b>Frontend developer</b></p>
+                        <p><i>4px Digital agency</i></p>
+                        <p>March 2019 - Present</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container projects" id="projects">
+            <div class="inner-block projects__inner">
+                <h2>Projects</h2>
+                <div class="projects__list">
+                    <div class="projects__item">
+                        <picture>
+                            <img class="projects__item-img" src="images/portfolio/byro38.jpg" alt="Архитектурное бюро" width="1920" height="4447" loading="lazy" style="box-shadow: 0.5rem 0.5rem 0 0 #4a4a4a;">
+                        </picture>
+                        <p>Website of the architectural bureau (MODX Evo)</p>
+                    </div>
+                    <div class="projects__item">
+                        <picture>
+                            <img class="projects__item-img" src="images/portfolio/christmas-shop.jpg" alt="Christmas shop" width="1920" height="4447" loading="lazy" style="box-shadow: 0.5rem 0.5rem 0 0 #ff4646;">
+                        </picture>
+                        <p>Christmas shop (html, scss, js)</p>
+                    </div>
+                    <div class="projects__item">
+                        <picture>
+                            <img class="projects__item-img" src="images/portfolio/sedona.jpg" alt="Sedona" width="1920" height="4447" loading="lazy" style="box-shadow: 0.5rem 0.5rem 0 0 #83B3D3;">
+                        </picture>
+                        <p>Sedona landing page (html, scss, js)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container languages" id="languages">
+            <div class="inner-block languages__inner">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian (native)</li>
+                    <li>English B1</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <ul class="footer__links">
+                    <li class="footer__links-item">E-mail: <a class="link" href="mailto:hausdr131@yandex.ru" target="_blank"
+                            rel="nofollow">[hausdr131@yandex.ru]<span>(mailto:hausdr131@yandex.ru)</span></a></li>
+                    <li class="footer__links-item">Telegram: <a class="link" href="https://t.me/ilia_shibaev" target="_blank"
+                            rel="nofollow">[@ilia_shibaev]<span>(t.me/ilia_shibaev)</span></a></li>
+                    <!-- <li class="footer__links-item">LinkedIn: <a class="link"
+                            href="https://www.linkedin.com/in/ilia-shibaev-53b758181/" target="_blank"
+                            rel="nofollow">[LinkedIn]<span>(linkedin.com/in/ilia-shibaev-53b758181/)</span></a></li> -->
+                    <li class="footer__links-item">GitHub: <a class="link" href="https://github.com/Shibaev-Ilya" target="_blank"
+                            rel="nofollow">[Shibaev-Ilya]<span>(github.com/Shibaev-Ilya)</span></a></li>
+                </ul>
+                <div class="footer__bottom">
+                    <img class="footer__logo" src="images/lc.svg" alt="rs">
+                    <p class="footer__copy">© 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const links = document.querySelectorAll(".js-scroll-to");
+        const header = document.querySelector(".header");
+        const langButtons = document.querySelector(".js-lang");
+        const textSummary = document.querySelector(".js-text");
+        const text = {
+            "en": `I am a dedicated Frontend Developer for creating dynamic and responsive web applications. With a
+                    strong foundation in HTML, CSS, and JavaScript, I bring creative solutions to life, ensuring
+                    seamless user experiences. My expertise extends to modern frameworks like React, where I have
+                    successfully developed and deployed several projects.<br><br>
+                    Beyond my professional life, I am an avid traveler, constantly exploring new cultures and gaining
+                    fresh perspectives. This curiosity and openness to new experiences translate into my work, where I
+                    am always eager to learn and adopt the latest technologies and best practices. My enthusiasm for
+                    sports keeps me active and disciplined, qualities that I bring to my professional endeavors as well.<br><br>
+                    Feel free to reach out to me to discuss potential opportunities, collaborations, or just to share
+                    your latest travel stories.`,
+            "ru": `Я специализируюсь на разработке интерфейсов для создания динамичных и отзывчивых веб-приложений. Обладая обширными знаниями в области HTML, CSS и JavaScript, я воплощаю в жизнь креативные решения, обеспечивая безупречный пользовательский опыт. Мой опыт распространяется на современные фреймворки, такие как React, где я успешно разработал и внедрил несколько проектов.<br><br>
+            Помимо своей профессиональной деятельности, я заядлый путешественник, постоянно исследующий новые культуры и приобретающий новые знания. Это любопытство и открытость новому опыту находят отражение в моей работе, где я всегда стремлюсь изучать и перенимать новейшие технологии и передовой опыт. Мое увлечение спортом делает меня активным и дисциплинированным — качества, которые я привношу и в свою профессиональную деятельность.<br><br>
+            Не стесняйтесь обращаться ко мне, чтобы обсудить потенциальные возможности, сотрудничество или просто поделиться вашими последними историями о путешествиях.`
+        }
+
+        links.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                let id = e.target.getAttribute("href");
+                document.querySelector(id).scrollIntoView({
+                behavior: "smooth"
+                });
+            })
+
+        })
+
+        langButtons.addEventListener('click', function (e) {
+            e.preventDefault();
+            const lang = e.target.getAttribute("data-lang");
+
+            if (lang) {
+                textSummary.innerHTML = text[lang];
+                if (!e.target.classList.contains('active')) {
+                    langButtons.querySelectorAll('.lang-btn').forEach(el => {
+                        el.classList.toggle("active")
+                    })
+                }
+            }
+
+        })
+
+        let width = window.innerWidth;
+        let scroll = 205;
+        let pix = '20rem';
+
+        if (width < 768 ) {
+            scroll = 65;
+            pix = '20rem';
+        }
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.scrollY;
+
+            if (scrollTop > scroll) {
+                header.classList.add('header__fixed');
+                document.body.style.marginTop = pix;
+            } else {
+                header.classList.remove('header__fixed');
+                document.body.style.marginTop = '0';
+            }
+        })
+
+    </script>
 </body>
 </html>
