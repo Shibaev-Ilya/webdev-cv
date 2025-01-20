@@ -51,4 +51,3 @@ March 2019 - Present
 * Russian (native)
 * English B1
 
-
